@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    function ExampleNode(config) {
+    function StarterNode(config) {
         RED.nodes.createNode(this,config);
         var node = this;
         node.on('input', function(msg) {
@@ -7,5 +7,5 @@ module.exports = function(RED) {
             node.send(msg);
         });
     }
-    RED.nodes.registerType("example",ExampleNode);
+    RED.nodes.registerType("starter",StarterNode);
 }
