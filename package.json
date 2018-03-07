@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "starter.js",
+  "dependencies"  : {
+    },
   "node-red" : {
     "nodes": {
         "starter": "starter.js"
