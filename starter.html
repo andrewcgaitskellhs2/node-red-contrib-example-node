@@ -1,6 +1,6 @@
 <script type="text/javascript">
-    RED.nodes.registerType('example',{
-        category: 'example functions',
+    RED.nodes.registerType('starter',{
+        category: 'starter',
         color: '#a6bbcf',
         defaults: {
             name: {value:""}
@@ -9,18 +9,18 @@
         outputs:1,
         icon: "file.png",
         label: function() {
-            return this.name||"example";
+            return this.name||"starter";
         }
     });
 </script>
 
-<script type="text/x-red" data-template-name="example">
+<script type="text/x-red" data-template-name="starter">
     <div class="form-row">
         <label for="node-input-name"><i class="icon-tag"></i> Name</label>
         <input type="text" id="node-input-name" placeholder="Name">
     </div>
 </script>
 
-<script type="text/x-red" data-help-name="example">
-    <p>A simple node that converts the message payloads into all lower-case characters</p>
+<script type="text/x-red" data-help-name="starter">
+    <p>A simple starter node that converts the message payloads into all lower-case characters</p>
 </script>
