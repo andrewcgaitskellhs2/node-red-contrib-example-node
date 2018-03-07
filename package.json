@@ -1,11 +1,11 @@
 {
-  "name": "red-contrib-example-node",
+  "name": "starter-node",
   "version": "1.0.0",
   "description": "",
-  "main": "example.js",
+  "main": "starter.js",
   "node-red" : {
     "nodes": {
-        "example": "example.js"
+        "starter": "starter.js"
     }
 },
   "scripts": {
